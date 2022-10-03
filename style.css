@@ -1,0 +1,39 @@
+body, html {
+    background: white; 
+    height: 100%; 
+    margin: 0px;
+}
+
+@font-face {
+    font-family: swansbold;
+    src: url(fonts/SwanseaBold-D0ox.ttf);
+}
+
+#header-text {
+    width: 100%;
+    height: 200px;
+    background: rgb(20, 44, 36);
+    color: rgb(131, 193, 155);
+}
+
+
+.info-box {
+    margin:auto;
+    margin-top: 5.5%;
+    width: 70%;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.2s linear;
+    font-family: swansbold;
+}
+
+.info-box:hover {
+    transition: linear 0.2s;
+    background: rgb(70, 99, 89);
+    color: white;
+    box-shadow: 2px 2px 0 0 darkgrey;
+}
